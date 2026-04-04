@@ -1,3 +1,31 @@
-.vs/PlannerProject.sln
-PlannerProject/
-PlannerProject.sln
+## [Visual Studio Git Ignore](https://github.com/github/gitignore/blob/main/VisualStudio.gitignore)
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Tt]est[Cc]onfirmed/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 2015/2017/2019/2022 cache/options directory
+.vs/
+# Project-specific .vs directories
+[Pp]lannerProject/.vs/
+
+# NuGet Packages
+*.nupkg
+# NuGet Symbol Packages
+*.snupkg
+# Custom NuGet mirror settings
+NuGet.config
+# Project-specific NuGet config files
+*.nuget.config
+
+# Others
+*.log
+*.tmp
+*.temp
+appsettings.Development.json
